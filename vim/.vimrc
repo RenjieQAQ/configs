@@ -7,8 +7,7 @@ filetype off                  " 必须
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" 让vundle管理插件版本,必须
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim' "管理插件的插件
 
 Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
@@ -390,7 +389,7 @@ set backspace=2
 " 允许backspace和光标键跨越行边界
 set whichwrap+=<,>,h,l
 " 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）
-set mouse=a
+"set mouse=a
 set selection=exclusive
 set selectmode=mouse,key
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
